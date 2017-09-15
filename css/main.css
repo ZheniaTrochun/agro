@@ -1,0 +1,174 @@
+main {
+  background-color: #f8f8f8;
+  padding-top: 42px;
+  color: #404040;
+  padding-bottom: 45px;
+}
+
+main a {
+  color: #404040;
+}
+
+main .side-navigation {
+  /*max-width: 240px;*/
+  border-top: 3px solid #3bae6c;
+  color: #404040;
+  background-color: white;
+}
+
+main .tech {
+  padding-top: 13px;
+  border-right: 1px solid #dbdbdb;
+  border-left: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+main .tech h4 {
+  margin-top: 0;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+main .tech h5 {
+  margin-left: 17px;
+  font-size: 18px;
+}
+
+main .tech ul li {
+  margin-left: 26px;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+main .tech ul li .active {
+  font-weight: bold;
+}
+
+main .inputs {
+  border: 1px solid #dbdbdb;
+}
+
+main .inputs .row {
+  margin-bottom: 0;
+}
+
+main .inputs h5 {
+  font-size: 18px;
+  /*margin-bottom: 0;*/
+  /*margin-top: 0;*/
+  padding-left: 10px;
+}
+
+main .inputs p {
+  margin-top: 15px;
+}
+
+main .inputs .choose-holder .input-field {
+  margin-top: 0;
+}
+
+main .inputs .choose-holder {
+  padding: 0 10px;
+}
+
+
+
+/*//////////////////////////////////////////*/
+
+main .all-tech {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+}
+
+main .articles-holder article {
+  margin-top: 37px;
+  /*border: 1px solid #dbdbdb;*/
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 0px 6px 0px rgba(64, 64, 64, 0.4);
+}
+
+main .articles-holder article .container {
+  width: 100%;
+}
+
+main .articles-holder article .container .row {
+  margin-bottom: 0;
+}
+
+/*@media only screen and (min-width: 1200px) {*/
+  main .articles-holder article .img-holder {
+    /*width: 390px;*/
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/*}*/
+
+main .articles-holder article .right-part {
+  padding-left: 20px;
+}
+
+main .articles-holder article button {
+  width: 100%;
+  height: 45px;
+  background-color: #008036;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#a-1 {
+  background-image: url("../img/traxtar.jpg");
+}
+
+main .articles-holder article h5 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.price {
+  display: block;
+  width: 102px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  background-color: #008036;
+  border-radius: 4px;
+  padding: 0 7px;
+}
+
+main .articles-holder article .about b {
+  color: #008036;
+  text-transform: uppercase;
+}
+
+main .articles-holder article .about ul li:before {
+  content: "⚬ ";
+}
+
+main .articles-holder article .about ul {
+  margin: 0;
+  height: 81px;
+}
+
+main .articles-holder article .about p {
+  margin-top: 0;
+}
+
+.sklad {
+  width: 300px;
+  background-color: #008037;
+  height: 35px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+  border-radius: 4px;
+  margin-left: 5px;
+}

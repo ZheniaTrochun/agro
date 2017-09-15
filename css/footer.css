@@ -1,0 +1,26 @@
+footer {
+  background-color: #252525;
+  padding-top: 30px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  font-size: 16px;
+}
+
+footer p {
+  text-align: center;
+  color: #636363;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+footer .bottom-links {
+  margin-bottom: 90px;
+}
+
+footer .text-muted {
+  color: #434343;
+}

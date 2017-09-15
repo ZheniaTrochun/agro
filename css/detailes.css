@@ -1,0 +1,187 @@
+.detailes .data-holder .container {
+  width: 100%;
+  background-color: #f8f8f8;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  /*padding: 15px;*/
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.detailes .data-holder .container .row {
+  margin: 0;
+}
+
+.detailes .detailes-main-container {
+  border: 1px solid #dbdbdb;
+  background-color: white;
+  padding: 10px 50px;
+}
+
+.detailes h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #404040;
+}
+
+.detailes h5 {
+  font-size: 16px;
+  /*margin-left: 15px;*/
+  text-transform: uppercase;
+}
+
+.detailes a {
+  color: #039be5;
+  margin-top: 0;
+}
+
+.detailes p {
+  margin: 0;
+}
+
+.detailes table tbody tr :last-child {
+  text-align: right;
+  font-weight: 500;
+}
+
+.detailes #desc2 table tbody tr :first-child {
+  text-transform: uppercase;
+}
+
+.detailes table tbody tr td {
+  padding: 10px 5px;
+}
+
+.detailes .data-holder .img-holder {
+  /*height: 375px;
+  width: 445px;*/
+}
+
+.detailes .data-holder .img {
+  background-image: url("../img/traxtar.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*height: 335px;*/
+  width: 100%;
+}
+
+.detailes .data-holder button {
+  background-color: white;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #404040;
+}
+
+.detailes .tab-wrapper .tabs .tab a {
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: lighter;
+  text-transform: none;
+  color: #404040;
+}
+
+.detailes .tab-wrapper .tabs {
+  margin: 0;
+  margin-left: 10px;
+  width: 100%;
+  /*background-color: #f8f8f8;*/
+}
+
+.detailes .about-us {
+  margin-top: 15px;
+}
+
+.detailes .tab-wrapper {
+  margin-top: 15px;
+}
+
+.detailes .tab-wrapper .tabs .tab {
+  width: 24%;
+}
+
+.detailes .tab-wrapper .tabs .tab a.active {
+  color: #3bae6c;
+}
+
+.detailes .tab-wrapper .tabs .indicator {
+  background-color: #3bae6c;
+}
+
+#desc1 .about-us {
+  border: 0 !important;
+}
+
+#desc2, #desc3, #desc4 {
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+#desc2 .row {
+  width: 100%;
+}
+
+#desc3 iframe {
+  border: 0;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.detailes .comment {
+  border: 1px solid #dbdbdb;
+  padding: 3px 15px;
+  margin-top: 18px;
+}
+
+.detailes .comment h6 {
+  font-weight: bolder;
+}
+
+.detailes .submmit-comment {
+  width: 25% !important;
+  border: 0 !important;
+  color: white !important;
+  background-color: #3bae6c !important;
+  margin-left: 75%;
+}
+
+.detailes .img-holder {
+  margin-bottom: 15px !important;
+}
+
+.detailes button {
+  font-size: 14px;
+}
+
+.detailes button .photos-number {
+  color: white;
+  background-color: #008036;
+  border-radius: 100%;
+  font-size: 14px;
+  padding: 3px;
+}
+
+
+@media only screen and (min-width: 0) {
+  .detailes .data-holder .img {
+    height: 230px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .detailes .data-holder .img {
+    height: 270px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .detailes .data-holder .img {
+    height: 300px;
+  }
+}

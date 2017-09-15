@@ -1,0 +1,58 @@
+.logo-list {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-height: 95px;
+}
+
+.logo-list .row {
+  margin-bottom: 0;
+}
+
+.logo-list .logo-link {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
+  width: 100%;
+  height: 37px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: grayscale();
+}
+
+.logo-list .logo-link:hover {
+  filter: none;
+}
+
+
+.agri {
+  background-image: url("../logotexniq/agri.png");
+}
+
+.sms {
+  background-image: url("../logotexniq/sms1.png");
+}
+
+.lambo {
+  background-image: url("../logotexniq/lambo1.png");
+}
+
+.sulky {
+  background-image: url("../logotexniq/sulky1.png");
+}
+
+.link-holder-wrapper {
+}
+
+
+.link-holder-wrapper .link-holder a {
+  line-height: 85px;
+}
+
+.logo-list .logo-operate-icon {
+  margin-top: 22px;
+}
+
+.logo-list .logo-operate-icon a {
+  color: #404040;
+}

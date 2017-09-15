@@ -1,0 +1,36 @@
+.about-us {
+  border: 1px solid #dbdbdb;
+  background-color: white;
+  padding: 15px 10px;
+  padding-bottom: 25px;
+}
+
+.about-us h3 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.about-us p {
+  margin-left: 8px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.about-us img {
+  margin-bottom: 30px;
+}
+
+.about-us .img-holder {
+  /*margin: auto;*/
+  text-align: center;
+}
+
+.about-us ul li {
+  margin-left: 30px;
+}
+
+.about-us ul li:before {
+  content: "- ";
+}
