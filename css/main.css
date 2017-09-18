@@ -1,3 +1,7 @@
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
 main {
   background-color: #f8f8f8;
   padding-top: 42px;
@@ -10,7 +14,6 @@ main a {
 }
 
 main .side-navigation {
-  /*max-width: 240px;*/
   border-top: 3px solid #3bae6c;
   color: #404040;
   background-color: white;
@@ -54,6 +57,7 @@ main .tech ul li {
 
 main .tech ul li a {
   display: block;
+  margin-bottom: 5px;
   width: 100%;
 }
 
@@ -160,6 +164,7 @@ main .articles-holder article h5 {
   background-color: #008036;
   border-radius: 4px;
   padding: 0 7px;
+  margin-bottom: 15px !important;
 }
 
 main .articles-holder article .about b {

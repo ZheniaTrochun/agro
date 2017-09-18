@@ -7,6 +7,7 @@
   padding-left: 15px;
   padding-top: 15px;
   padding-right: 15px;
+  position: relative;
 }
 
 .detailes .data-holder .container .row {
@@ -15,6 +16,22 @@
 
 .detailes .to-map {
   text-transform: uppercase;
+  font-size: 10px;
+}
+
+.detailes .submit-message {
+  background-color: #008036 !important;
+  height: 35px !important;
+  width: 300px !important;
+  float: right !important;
+  border: 0 !important;
+  border-radius: 5px !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.detailes .submit-message:hover {
+  background-color: #00B036 !important;
 }
 
 .detailes .detailes-main-container {
@@ -24,15 +41,18 @@
 }
 
 .detailes h3 {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: bold;
   color: #404040;
+  margin-bottom: 15px !important;
 }
 
 .detailes h5 {
   font-size: 16px;
+  font-weight: bold;
   /*margin-left: 15px;*/
   text-transform: uppercase;
+
 }
 
 .detailes a {
@@ -42,19 +62,32 @@
 
 .detailes p {
   margin: 0;
+  margin-left: 0 !important;
+}
+
+.detailes .about-us {
+  padding: 0;
+  margin-top: 25px !important;
+}
+
+.detailes .about-us ul {
+  margin-bottom: 25px;
 }
 
 .detailes table tbody tr :last-child {
   text-align: right;
   font-weight: 500;
+  color: #333339;
 }
 
-.detailes #desc2 table tbody tr :first-child {
+.detailes table tbody tr :first-child {
   text-transform: uppercase;
+  color: #757575;
 }
 
 .detailes table tbody tr td {
   padding: 10px 5px;
+  font-size: 14px;
 }
 
 .detailes .data-holder .img-holder {
@@ -82,19 +115,47 @@
   color: #404040;
 }
 
+.detailes .tab-wrapper .tabs .tab {
+  /*width: 25% !important;*/
+  height: 45px;
+}
+
 .detailes .tab-wrapper .tabs .tab a {
   padding: 0 10px;
-  font-size: 18px;
-  font-weight: lighter;
-  text-transform: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
   color: #404040;
+  border-radius: 3px;
+
+}
+
+#prosmotrov {
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  color: #515151;
+}
+
+.data-holder .indicator {
+  display: none;
+}
+
+.detailes .tab-wrapper .tabs .tab a:hover {
+  color: white;
+  background-color: #008036;
 }
 
 .detailes .tab-wrapper .tabs {
+  display: flex;
   margin: 0;
-  margin-left: 10px;
+  margin-left: 0;
   width: 100%;
-  /*background-color: #f8f8f8;*/
+  height: 45px;
+  border-bottom: 2px solid #008036;
 }
 
 .detailes .about-us {
@@ -106,11 +167,12 @@
 }
 
 .detailes .tab-wrapper .tabs .tab {
-  width: 24%;
+  width: 25%;
 }
 
 .detailes .tab-wrapper .tabs .tab a.active {
-  color: #3bae6c;
+  color: white;
+  background-color: #008036;
 }
 
 .detailes .tab-wrapper .tabs .indicator {
@@ -121,7 +183,7 @@
   border: 0 !important;
 }
 
-#desc2, #desc3, #desc4 {
+#desc2, #desc3 {
   padding-top: 15px;
   padding-bottom: 50px;
 }
@@ -135,6 +197,10 @@
   display: block;
   margin: auto;
   margin-top: 20px;
+}
+
+#desc4 {
+  margin-top: 25px !important;
 }
 
 .detailes .comment {
@@ -151,7 +217,7 @@
   width: 25% !important;
   border: 0 !important;
   color: white !important;
-  background-color: #3bae6c !important;
+  background-color: #008036 !important;
   margin-left: 75%;
 }
 

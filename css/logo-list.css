@@ -44,6 +44,37 @@
 .link-holder-wrapper {
 }
 
+.helper-left {
+  background-color: white;
+  position: absolute;
+  left: 0;
+  height: 67px;
+  width: 67px;
+  z-index: 10000;
+}
+
+.helper-right {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  height: 67px;
+  width: 67px;
+}
+
+.lSPrev {
+  background-image: url("../img/MAIN3.png") !important;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  opacity: 1 !important;
+}
+
+.lSNext {
+  background-image: url("../img/MAIN2.png") !important;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  opacity: 1 !important;
+}
+
 .link-holder {
   width: 200px;
   margin-left: 25px;
@@ -80,4 +111,96 @@
   height: 100px;
   width: 100px;
   background-color: blue;
+}
+
+#mixedSlider {
+  margin-top: 10px;
+  position: relative;
+}
+#mixedSlider .MS-content {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 5%;
+}
+#mixedSlider .MS-content .item {
+  display: inline-block;
+  width: 33.3333%;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  height: 100%;
+  white-space: normal;
+  padding: 0 10px;
+}
+@media (max-width: 991px) {
+  #mixedSlider .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-content .item {
+    width: 100%;
+  }
+}
+#mixedSlider .MS-content .item a {
+  float: right;
+  margin: 0 20px 0 0;
+  font-size: 16px;
+  font-style: italic;
+  color: rgba(173, 0, 0, 0.82);
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: linear 0.1s;
+}
+#mixedSlider .MS-content .item a:hover {
+  text-shadow: 0 0 1px grey;
+}
+#mixedSlider .MS-controls button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  height: 25px;
+  width: 25px;
+  outline: 0;
+  font-size: 50px;
+  top: 5px;
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.15s linear;
+}
+#mixedSlider .MS-controls button:hover {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: rgba(0, 0, 0, 0.8);
+}
+@media (max-width: 992px) {
+  #mixedSlider .MS-controls button {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-controls button {
+    font-size: 20px;
+  }
+}
+#mixedSlider .MS-controls .MS-left {
+  left: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/MAIN3.png");
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-controls .MS-left {
+    left: -10px;
+  }
+}
+#mixedSlider .MS-controls .MS-right {
+  right: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/MAIN2.png");
+}
+@media (max-width: 767px) {
+  #mixedSlider .MS-controls .MS-right {
+    right: -10px;
+  }
 }

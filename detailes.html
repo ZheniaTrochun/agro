@@ -7,6 +7,7 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="./css/header.css" media="screen" title="no title">
   <link rel="stylesheet" href="./css/banner.css" media="screen" title="no title">
   <link rel="stylesheet" href="./css/logo-list.css" media="screen" title="no title">
@@ -93,45 +94,49 @@
     <div class="logo-list">
       <div class="container">
         <div class="row">
-          <div class="col m1 hide-on-small-only logo-operate-icon"  style="text-align: right;">
-            <a href="#"><i class="material-icons">keyboard_arrow_left</i></a>
-          </div>
 
-          <div class="col m10 s12">
-            <div class="container-fluid">
-
-              <div class="row link-holder-wrapper">
-                <div class="col m3 s12 link-holder">
-                  <a href="#" class="logo-link agri"></a>
+          <div id="mixedSlider">
+            <div class="MS-content">
+                <div class="item">
+                    <div class="link-holder">
+                      <a href="#" class="logo-link agri"></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="link-holder">
+                      <a href="#" class="logo-link sms"></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="link-holder">
+                      <a href="#" class="logo-link lambo"></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="link-holder">
+                      <a href="#" class="logo-link sulky"></a>
+                    </div>
                 </div>
 
-                <div class="col m3 s12 link-holder">
-                  <a href="#" class="logo-link sms"></a>
-                </div>
 
-                <div class="col m3 s12 link-holder">
-                  <a href="#" class="logo-link lambo"></a>
-                </div>
-
-                <div class="col m3 s12 link-holder">
-                  <a href="#" class="logo-link sulky"></a>
-                </div>
               </div>
-            </div>
-          </div>
-
-          <div class="col m1 hide-on-small-only logo-operate-icon">
-            <a href="#"><i class="material-icons">keyboard_arrow_right</i></a>
+              <div class="MS-controls">
+                  <button class="MS-left"></button>
+                  <button class="MS-right"></button>
+              </div>
           </div>
         </div>
+
+        </div>
       </div>
+
     </div>
+
   </section>
 
   <main>
     <div id="main10" class="detailes">
       <div class="container detailes-main-container">
-        <!-- <div class="row"> -->
         <h3>Трактор Traxtor 322</h3>
 
         <div class="data-holder">
@@ -188,7 +193,9 @@
                 <a class="to-map" href="#">Смотреть на карте</a>
               </div>
             </div>
-
+            <p id="prosmotrov">
+              301 просмотр
+            </p>
           </div>
 
           <div class="col s12">
@@ -327,17 +334,15 @@
                 <input id="email" type="email" class="validate">
                 <label for="email" data-error="wrong" data-success="right">Email</label>
               </div>
-              <div class="row">
               <div class="input-field col s12">
                 <textarea id="textarea1" class="materialize-textarea"></textarea>
                 <label for="textarea1">Textarea</label>
               </div>
-            </div>
+              <button type="button" name="button" class="submit-message">отправить</button>
             </div>
           </div>
 
         </div>
-        <!-- </div> -->
       </div>
     </div>
   </main>
@@ -387,6 +392,7 @@
   </footer>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="./js/multislider.js"></script>
   <script src="./js/main.js"></script>
 
   </body>
