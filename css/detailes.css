@@ -13,6 +13,10 @@
   margin: 0;
 }
 
+.detailes .to-map {
+  text-transform: uppercase;
+}
+
 .detailes .detailes-main-container {
   border: 1px solid #dbdbdb;
   background-color: white;
