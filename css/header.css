@@ -49,15 +49,19 @@
 .header .phone-wrapper-mobile {
   color: #404040;
   padding-top: 15px;
-  width: 160px;
+  padding-bottom: 15px;
   margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 40px;
 }
 
 .header .phone-wrapper-mobile p {
-  font-size: 18px;
+  font-size: 24px;
   line-height: normal;
   margin-bottom: 5px;
   margin-top: 5px;
+  text-align: center;
 }
 
 .header .phone-wrapper p {
@@ -114,5 +118,22 @@
 }
 
 .side-nav a:hover {
+  color: #3bae6c;
+}
+
+.side-nav a {
+  text-align: center;
+  font-size: 24px !important;
+  font-weight: normal !important;
+}
+
+.mobile-navigation-holder {
+  padding-top: 25px;
+  padding-bottom: 100px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.side-nav a.active {
   color: #3bae6c;
 }
