@@ -41,10 +41,23 @@
 
 .header .phone-wrapper {
   color: #404040;
-  /*margin-left: 190px;*/
   padding-top: 15px;
   width: 160px;
   margin: auto;
+}
+
+.header .phone-wrapper-mobile {
+  color: #404040;
+  padding-top: 15px;
+  width: 160px;
+  margin: auto;
+}
+
+.header .phone-wrapper-mobile p {
+  font-size: 18px;
+  line-height: normal;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .header .phone-wrapper p {
@@ -56,7 +69,6 @@
 
 .header .lang-wrapper {
   width: 70px;
-  /*margin-left: 65px;*/
   padding-top: 35px;
   line-height: normal;
   margin: auto;
@@ -68,12 +80,15 @@
   font-size: 18px;
 }
 
+.header .lang-wrapper a:hover {
+  text-decoration: underline;
+}
+
 .header .lang-wrapper .active {
   font-weight: bold;
 }
 
 .header .tab-wrapper {
-  /*margin-left: 130px;*/
   padding-top: 22px;
   margin-bottom: 15px;
 }
@@ -86,10 +101,18 @@
   color: #404040;
 }
 
+.header .tab-wrapper .tabs .tab a:hover {
+  color: #3bae6c;
+}
+
 .header .tab-wrapper .tabs .tab a.active {
   color: #3bae6c;
 }
 
 .header .tab-wrapper .tabs .indicator {
   background-color: #3bae6c;
+}
+
+.side-nav a:hover {
+  color: #3bae6c;
 }

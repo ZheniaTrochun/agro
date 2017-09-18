@@ -21,6 +21,10 @@ footer .bottom-links {
   margin-bottom: 90px;
 }
 
+footer .bottom-links div {
+  margin-bottom: 15px;
+}
+
 footer .text-muted {
   color: #434343;
 }
