@@ -122,6 +122,8 @@
   font-weight: lighter;
   text-transform: none;
   color: #404040;
+  text-overflow: none;
+  padding: 0;
 }
 
 .header .tab-wrapper .tabs .tab a:hover {
